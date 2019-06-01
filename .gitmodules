@@ -1,0 +1,15 @@
+[submodule "copy_to_home/.vim/bundle/nerdtree"]
+	path = copy_to_home/.vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "copy_to_home/.vim/bundle/indentLine"]
+	path = copy_to_home/.vim/bundle/indentLine
+	url = https://github.com/Yggdroot/indentLine.git
+[submodule "copy_to_home/.vim/bundle/nerdcommenter"]
+	path = copy_to_home/.vim/bundle/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule "copy_to_home/.vim/bundle/lightline.vim"]
+	path = copy_to_home/.vim/bundle/lightline.vim
+	url = https://github.com/itchyny/lightline.vim
+[submodule "copy_to_home/.vim/bundle/tabular"]
+	path = copy_to_home/.vim/bundle/tabular
+	url = https://github.com/godlygeek/tabular.git

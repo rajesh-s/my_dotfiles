@@ -1,0 +1,34 @@
+# Initialize a repository
+git init
+# Add files
+git add .
+# Commit
+git commit -m "First commit"
+# Sets the new remote
+git remote add origin <https://github.com/user/repo.git>
+# Verifies the new remote URL
+git remote -v
+# Pushes the changes in your local repository up to the remote repository you specified as the origin
+git push origin master
+
+# To show source of cloned repository
+git remote show origin
+# Already cloned repository submodule update
+git clone git://github.com/foo/bar.git
+cd bar
+git submodule update --init --recursive
+# To clone with submodules
+git clone --recursive GIT-REPO-URL
+
+# Git basics
+
+* git config --list - To display username and email
+* git config --global user.[name/email]
+* Clone repository with git clone
+* Create a new branch with git checkout -b
+* Make changes, git status
+* Add any new files with git add
+* Commit using git commit -m ""
+* git checkout master to switch to master
+* git merge <branch_name> to merge current with another branch
+* git push origin master to send changes

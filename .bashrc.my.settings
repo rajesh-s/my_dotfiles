@@ -1,0 +1,74 @@
+# Project Specific
+
+# My settings
+alias how='cht.sh'
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+alias V='gvim'
+alias cd..='cd ..'
+alias c='clear'
+alias dtrx='open' # Universal Extraction tool
+source $(dirname $(gem which colorls))/tab_complete.sh
+alias lc='colorls -lA --sd'
+LS_COLORS=$LS_COLORS:'di=1;31' ; export LS_COLORS
+alias pingg='~/prettyping --nolegend'
+
+# don't put duplicate lines or lines starting with space in the history.
+export HISTCONTROL=ignoredups:erasedups
+# append to the history file, don't overwrite it
+shopt -s histappend
+export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
+# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+HISTSIZE=100000
+HISTFILESIZE=200000
+
+## Enable Tab Completion for cheatsheet
+. ~/.bash.d/cht.sh
+
+
+### Notes:
+# Install cheat.sh using: curl https://cht.sh/:cht.sh > ~/bin/cht.sh && chmod +x ~/bin/cht.sh
+# Use cht.sh --shell for exclusive mode. Stealth mode: cht.sh --shell python; >stealth Q
+# Install termtosvg: pip3 install --user termtosvg; Start with termtosvg terminate with exit.
+# use tldr followed by command for easier man pages
+###
+
+### Install these packages:
+# sudo apt-add-repository ppa:fish-shell/release-2 ppa:jonathonf/vim
+# sudo apt install python3-pip fish dtrx zeal
+# zeal: offline docsheets
+# Install Gem using RBENV
+# sudo apt update
+# sudo apt install autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm5 libgdbm-dev
+# cd 
+# git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+# echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+# echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+# source ~/.bashrc
+# type rbenv
+# git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
+# rbenv install -l
+# rbenv install 2.6.0
+# rbenv global 2.6.0
+# ruby -v
+# echo "gem: --no-document" > ~/.gemrc
+# gem install bundler
+# gem install colorls
+# npm install -g tldr
+# curl -O https://raw.githubusercontent.com/denilsonsa/prettyping/master/prettyping
+# chmod +x prettyping
+# ./prettyping whatever.host.you.want.to.ping
+###
+
+### Install - Other tools:
+#   MiKTeX, Tex
+#   PyCharm sudo snap install pycharm-community --classic
+#   Visual Studio Code
+#   Fish Term (Use fish_config) for settings
+#   Fonts: Hack, Libertine, CMU TypeWriter
+#   Bat: Better Cat
+#   Pretty Ping
+#   FZF https://github.com/junegunn/fzf/tree/devel Run uninstall script in ~/.fzf to remove
+#   Diff so fancy https://github.com/so-fancy/diff-so-fancy
+###

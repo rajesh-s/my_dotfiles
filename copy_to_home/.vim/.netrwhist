@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/proj/GulDV/pwa/rshashik/temp_compile'
+let g:netrw_dirhist_2='/proj/GulDV/pwa/rshashik/trunk/tests/PERFORMANCE/AUG_PERF_TESTS/MULTI_MASTER/new_scenarios/crc0_hsmdma_l1diff_ddr_hsmdma_first_qos_readl2'
+let g:netrw_dirhist_3='/proj/GulDV/pwa/rshashik/trunk/tests/SYS/ACC_INTG/IIR/trigger_tests/iir_trig_in'
+let g:netrw_dirhist_4='/proj/GulDV/pwa/rshashik/Gul/trunk/dv/blks/sysosc'
+let g:netrw_dirhist_5='/proj/GulDV/pwa/rshashik/Gul/results_Gul'
+let g:netrw_dirhist_6='/proj/GulDV/pwa/rshashik/Gul/trunk/tests/INFRA/CGU_CDU/cgu1_ddr_800'
+let g:netrw_dirhist_7='/proj/GulDV/pwa/rshashik/formal/Gul'
+let g:netrw_dirhist_8='/proj/GulDV/pwa/rshashik'
+let g:netrw_dirhist_9='/nobackup/rshashik/mmr_SEC'
