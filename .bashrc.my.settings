@@ -4,7 +4,7 @@
 alias how='cht.sh'
 alias ll='ls -alF'
 alias la='ls -A'
-alias l='ls -CF'
+alias l='ls -CF -altr'
 alias V='gvim'
 alias cd..='cd ..'
 alias c='clear'

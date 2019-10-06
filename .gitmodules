@@ -13,3 +13,6 @@
 [submodule "copy_to_home/.vim/bundle/tabular"]
 	path = copy_to_home/.vim/bundle/tabular
 	url = https://github.com/godlygeek/tabular.git
+[submodule "copy_to_home/.vim/bundle/syntastic"]
+	path = copy_to_home/.vim/bundle/syntastic
+	url = https://github.com/vim-syntastic/syntastic.git

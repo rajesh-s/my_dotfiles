@@ -86,6 +86,8 @@ set background=dark
 let g:gruvbox_contrast_dark = 'hard'
 let g:gruvbox_vert_split = 'fg0'
 colorscheme gruvbox "koehler
+set termguicolors
+let g:gruvbox_hls_cursor = 'red'
 " Colorscheme for the bottom bar that's easy on the eyes
 set laststatus=2
 let g:lightline = {
@@ -115,6 +117,8 @@ set expandtab " Expand tab to space
 set smarttab
 set linespace=5 " Space between lines
 set autoindent
+set undolevels=100           " 100 undos
+set updatecount=100           " switch every 100 chars
 
 " Key bindings
 " Toggle off highlighting - Prese Esc
@@ -187,6 +191,16 @@ endif
 " To view the type of whitespace used for the file being edited
 set listchars=eol:$,tab:\>\ ,trail:.,extends:>,precedes:<
 set nolist   " to turn on (use :set list to turn on)
+
+" Syntastic settings | Add syntastic plugins as and when necessary
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 
 " Other Plugins installed:
 " Tabular (Pathogen) refer http://vimcasts.org/episodes/aligning-text-with-tabular-vim/; Eg: :Tab /= will align all assignments https://github.com/godlygeek/tabular
