@@ -32,3 +32,13 @@ git clone --recursive GIT-REPO-URL
 * git checkout master to switch to master
 * git merge <branch_name> to merge current with another branch
 * git push origin master to send changes
+
+
+## Update submodules to most recent
+git submodule update --remote --merge
+
+## Restore a file that was deleted but not committed
+git checkout -- <file>
+
+## View Parent URL
+git remote show origin
