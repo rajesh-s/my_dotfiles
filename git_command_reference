@@ -42,3 +42,7 @@ git checkout -- <file>
 
 ## View Parent URL
 git remote show origin
+
+
+## Add license to a Github repository easily
+https://github.com/<user>/<repo>/community/license/new?branch=master&template=cc0-1.0
