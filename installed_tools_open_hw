@@ -1,0 +1,52 @@
+Verilator - https://www.veripool.org/projects/verilator/wiki/Installing | https://www.veripool.org/projects/verilator/wiki/Manual-verilator
+GTKWave - http://gtkwave.sourceforge.net/ | Installed using sudo-apt
+SymbiYosys - https://symbiyosys.readthedocs.io/en/latest/quickstart.html | http://www.clifford.at/yosys/ | https://people.eecs.berkeley.edu/~alanmi/abc/
+All other packages under: https://symbiyosys.readthedocs.io/en/latest/quickstart.html
+Icarus Verilog - https://github.com/steveicarus/iverilog
+
+Available under /usr/local/bin post installation:
+verilator
+verilator_gantt
+verilator_coverage
+verilator_profcfunc
+verilator_bin
+verilator_coverage_bin_dbg
+verilator_bin_dbg
+yosys-config
+yosys-smtbmc
+yosys
+yosys-abc
+yosys-filterlib
+sby
+yices
+yices-smt2
+yices-smt
+yices-sat
+yices-mt2
+avy
+avybmc
+boolector
+btorimc
+btormbt
+btormc
+btoruntrace
+btorsim
+vcd2fst
+lxt2vcd
+lxt2miner
+ghwdump
+fstminer
+fst2vcd
+evcd2vcd
+vztminer
+vzt2vcd
+vcd2vzt
+vcd2lxt2
+vcd2lxt
+shmidcat
+twinwave
+gtkwave
+rtlbrowse
+xml2stems
+suprove
+iverilog
