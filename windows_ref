@@ -1,3 +1,4 @@
 - FiraCode (https://github.com/tonsky/FiraCode/wiki/Installing)
 - Hack
 - Visual Studio
+- scoop install curl git 7zip openssh grep concfg pshazz touch sed hugo
