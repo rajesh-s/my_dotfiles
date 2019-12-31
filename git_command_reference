@@ -43,6 +43,12 @@ git checkout -- <file>
 ## View Parent URL
 git remote show origin
 
+## Restore to a previous commit version
+git log --oneline
+git checkout <commit_id> .
+git add -A
+git commit -m "Revert commit: xxxx"
+git push
 
 ## Add license to a Github repository easily
 https://github.com/<user>/<repo>/community/license/new?branch=master&template=cc0-1.0
