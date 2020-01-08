@@ -52,3 +52,17 @@ git push
 
 ## Add license to a Github repository easily
 https://github.com/<user>/<repo>/community/license/new?branch=master&template=cc0-1.0
+
+## Branches
+- Update to Master
+git pull
+- Create new branch
+git checkout -b [new_branch]
+- Push to Github
+git push origin [new_branch]
+- See all branches
+git branch -a
+- Delete branch locally
+git branch -d [new_branch]
+- Delete branch on Github
+git push origin :[new_branch]
