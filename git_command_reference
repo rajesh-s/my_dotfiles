@@ -66,3 +66,7 @@ git branch -a
 git branch -d [new_branch]
 - Delete branch on Github
 git push origin :[new_branch]
+
+## Go back to a specific commit in a private project
+git reset --hard <commidId> && git push --force
+# This will remove all commits after the particular commit ID and is dangerous on a public repo
