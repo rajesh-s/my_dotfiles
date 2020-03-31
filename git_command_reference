@@ -70,3 +70,7 @@ git push origin :[new_branch]
 ## Go back to a specific commit in a private project
 git reset --hard <commidId> && git push --force
 # This will remove all commits after the particular commit ID and is dangerous on a public repo
+
+
+## If you have issues pushing files >100MB you can try with this switch or use git LFS
+git config --global http.postBuffer 100000000
