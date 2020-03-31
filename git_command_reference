@@ -74,6 +74,8 @@ git reset --hard <commidId> && git push --force
 
 ## If you have issues pushing files >100MB you can try with this switch or use git LFS
 git config --global http.postBuffer 100000000
+OR
+Push in multiple commits
 
 ## To undo git add before a commit:
 Run git reset <file> or git reset to unstage all changes.
