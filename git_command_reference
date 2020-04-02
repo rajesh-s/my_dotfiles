@@ -98,3 +98,5 @@ git pull
 cd ..
 # Now the submodules are in the state you want, so
 git commit -am "Pulled down update to submodule_dir"
+# Recursively get all submodule and submodules within
+git submodule update --init --recursive
