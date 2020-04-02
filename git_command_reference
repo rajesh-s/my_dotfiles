@@ -82,3 +82,19 @@ Run git reset <file> or git reset to unstage all changes.
 
 ## To uncommit in case you have not pushed the commit publicly yet
 git reset HEAD~1 --soft
+
+# Get the submodule initially
+git submodule add ssh://bla submodule_dir
+git submodule init
+# Time passes, submodule upstream is updated
+# and you now want to update
+# Change to the submodule directory
+cd submodule_dir
+# Checkout desired branch
+git checkout master
+# Update
+git pull
+# Get back to your project root
+cd ..
+# Now the submodules are in the state you want, so
+git commit -am "Pulled down update to submodule_dir"
