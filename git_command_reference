@@ -100,3 +100,6 @@ cd ..
 git commit -am "Pulled down update to submodule_dir"
 # Recursively get all submodule and submodules within
 git submodule update --init --recursive
+
+# Save Credentials
+git config --global credential.helper store
