@@ -33,6 +33,12 @@ git clone --recursive GIT-REPO-URL
 * git merge <branch_name> to merge current with another branch
 * git push origin master to send changes
 
+## Create new repository from terminal
+cd <dir>
+git add README.md
+git commit -m "First"
+git remote add origin https://github.com/<username>/<repo_name>.git
+git push -u origin master
 
 ## Update submodules to most recent
 git submodule update --remote --merge
