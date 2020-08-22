@@ -109,3 +109,6 @@ git submodule update --init --recursive
 
 # Save Credentials
 git config --global credential.helper store
+
+# To clone as a specific user
+git clone https://<username>@github.com/username/repo.git
