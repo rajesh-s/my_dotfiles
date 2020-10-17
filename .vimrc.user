@@ -105,7 +105,7 @@ let g:lightline = {
       \ },
       \ }
 set noshowmode " Remove redundant status display when using lightline
-set guifont=Input\ Mono\ 14
+set guifont=Fira\ Code\ 14
 
 " Set encoding
 set encoding=utf-8
