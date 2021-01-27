@@ -119,6 +119,8 @@ set linespace=5 " Space between lines
 set autoindent
 set undolevels=100           " 100 undos
 set updatecount=100           " switch every 100 chars
+set textwidth=0
+set wrapmargin=0 " Prevent vim from inserting new line when editing long text
 
 " Key bindings
 " Toggle off highlighting - Prese Esc
