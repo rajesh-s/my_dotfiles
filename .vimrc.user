@@ -124,7 +124,7 @@ set wrapmargin=0 " Prevent vim from inserting new line when editing long text
 
 " Key bindings
 " Toggle off highlighting - Prese Esc
-nnoremap <silent> <Esc> :nohlsearch<Bar>:echo<CR>
+nnoremap <silent> <Esc><Esc> :nohlsearch<Bar>:echo<CR>
 " Go to next tab
 nnoremap <Tab> gt  
 " Go to previous tab
