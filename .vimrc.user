@@ -1,6 +1,9 @@
 " Required for NERDTree and other plugins
 execute pathogen#infect()
 
+" Enable right-click with mouse
+set mousemodel=popup
+
 " check one time after 4s of inactivity in normal mode
 set autoread
 au CursorHold * checktime
